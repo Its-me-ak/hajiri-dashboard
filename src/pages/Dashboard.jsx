@@ -1,4 +1,5 @@
 import Categories from "../components/Categories"
+import ClientReport from "../components/ClientReport"
 import ExpenseStats from "../components/ExpenseStats"
 import Tabmenu from "../components/Tabmenu"
 import Wallet from "../components/Wallet"
@@ -13,8 +14,9 @@ const Dashboard = () => {
         </div>
         <div className="md:col-span-3">
           <ExpenseStats />
-          <div className="grid md:grid-cols-2 grid-cols-1">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-2">
             <Categories/>
+            <ClientReport/>
           </div>
         </div>
       </div>

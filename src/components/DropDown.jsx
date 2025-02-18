@@ -39,12 +39,12 @@ const Dropdown = () => {
             </button>
 
             {isOpen && (
-                <div className="absolute w-full mt-2 bg-white border rounded-md shadow-lg">
+                <div className="absolute w-full mt-2 bg-white border rounded-md shadow-lg z-50">
                     {options.map((option) => (
                         <div
                             key={option}
                             onClick={() => handleSelect(option)}
-                            className="px-4 py-2 cursor-pointer hover:bg-gray-100"
+                            className="px-4 py-2 cursor-pointer hover:bg-gray-100 border-b border-gray-200"
                         >
                             {option}
                         </div>

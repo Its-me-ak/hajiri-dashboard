@@ -105,7 +105,7 @@ const Categories = () => {
             </div>
 
             {organisationData.map((org) => (
-                <div key={org.fieldName} className="flex items-center justify-between border rounded-lg mt-2 p-2 mx-2 border-gray-200">
+                <div key={org.fieldName} className="flex items-center justify-between border rounded-sm mt-2 p-2 mx-2 border-gray-200">
                     <div className="flex gap-2 items-center">
                         <h2 className="text-sm font-medium text-slate-700">{org.fieldName}</h2>
                         <p className="text-slate-500 text-sm font-semibold">({org.percent})</p>
