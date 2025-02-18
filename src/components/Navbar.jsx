@@ -20,7 +20,7 @@ const Navbar = () => {
         }
     }, [screenSize, setActiveMenu]);
     return (
-        <nav className="flex justify-between md:px-2 px-5 py-1 items-center shadow-lg">
+        <nav className="flex justify-between md:px-2 px-5 py-1 items-center shadow-md">
             <div className="flex gap-5">
                 <button title="menu"
                     onClick={() => setActiveMenu((prevMenu) => !prevMenu)}
