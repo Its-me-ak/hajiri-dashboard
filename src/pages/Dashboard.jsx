@@ -1,3 +1,4 @@
+import BudgetAllocation from "../components/BudgetAllocation"
 import Categories from "../components/Categories"
 import ClientReport from "../components/ClientReport"
 import ExpenseStats from "../components/ExpenseStats"
@@ -14,9 +15,12 @@ const Dashboard = () => {
         </div>
         <div className="md:col-span-3">
           <ExpenseStats />
-          <div className="grid md:grid-cols-2 grid-cols-1 gap-2">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
             <Categories/>
             <ClientReport/>
+          </div>
+          <div className="grid grid-cols-1">
+            <BudgetAllocation/>
           </div>
         </div>
       </div>
