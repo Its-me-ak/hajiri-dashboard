@@ -21,12 +21,14 @@ export default function App() {
             </div>
           )}
           <div className={`min-h-screen w-full ${activeMenu ? 'md:ml-64' : 'flex-2'}`}>
-            <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full">
+            <div className="fixed md:static bg-white w-full">
               <Navbar />
             </div>
-            <Routes>
-              <Route path="/" element={<Dashboard />} />
-            </Routes>
+           <div className='mt-14 md:mt-2'>
+              <Routes>
+                <Route path="/" element={<Dashboard />} />
+              </Routes>
+           </div>
           </div>
       </div>
     </BrowserRouter>
