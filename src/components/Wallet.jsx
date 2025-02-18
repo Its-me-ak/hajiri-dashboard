@@ -2,7 +2,7 @@
 const Wallet = () => {
     return (
         <>
-            <div className="w-64 h-auto bg-[#f5f3f8] mx-3 mt-2 pt-3 rounded-lg capitalize">
+            <div className="w-72 h-auto bg-[#f5f3f8] mx-3 mt-2 pt-3 rounded-lg capitalize">
                 <span className="px-3 py-3 text-sm text-slate-700 font-semibold">company wallet</span>
                 <div className="px-3 pb-4 mt-4">
                     <h4 className="text-sm text-slate-600 font-medium" >your balance</h4>
