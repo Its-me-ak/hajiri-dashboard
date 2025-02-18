@@ -47,7 +47,7 @@ const WalletTransaction = () => {
     ];
     return (
         <>
-            <div className="mx-3 space-y-3 w-72 mt-5">
+            <div className="space-y-2 mt-5">
                 <h2 className="text-sm font-semibold mb-4 text-slate-400">Employee Wallet Transactions</h2>
                 {transactions.map((transaction, index) => (
                     <div key={index} className="flex items-center gap-2 bg-white px-1 py-2 ">
