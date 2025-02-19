@@ -7,7 +7,7 @@ const TabMenu = () => {
 
     return (
         <div>
-            <ul className="flex md:gap-6 gap-3 capitalize flex-wrap text-sm w-full border-b-0 md:border-b md:border-gray-200 px-3 pt-3">
+            <ul className="flex md:gap-6 gap-3 capitalize flex-wrap text-sm w-full border-b-0 md:border-b md:border-gray-200  pt-3">
                 <NavLink
                     className={({ isActive }) => (isActive ? activeLink : normalLink)}
                 >

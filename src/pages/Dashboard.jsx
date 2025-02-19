@@ -7,7 +7,7 @@ import Wallet from "../components/Wallet"
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className="px-4">
       <Tabmenu />
       <div className="grid grid-cols-1 lg:grid-cols-4">
         <div className="md:col-span-1">

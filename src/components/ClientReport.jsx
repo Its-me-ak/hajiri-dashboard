@@ -10,7 +10,7 @@ const ClientReport = () => {
     ];
 
     return (
-        <main className="border border-gray-200 mt-3 py-2 px-3">
+        <main className="border border-gray-200 mt-4  py-2 px-3">
             <div className="flex justify-between items-center border-b border-gray-200 px-2 mb-3">
                 <h1 className="text-lg font-semibold text-slate-800">
                     Client Report
