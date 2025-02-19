@@ -106,7 +106,7 @@ const Sidebar = () => {
   const { activeMenu, setActiveMenu, screenSize } = useDashboardContext();
 
   const handleSidebarClose = () => {
-    if (activeMenu && screenSize <= 900) {
+    if (activeMenu && screenSize <= 950) {
       setActiveMenu(false);
     }
   }
