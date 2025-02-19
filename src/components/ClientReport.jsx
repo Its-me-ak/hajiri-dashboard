@@ -25,7 +25,7 @@ const ClientReport = () => {
                                 <img src={company.logo} alt={company.name} className="w-10 h-10 rounded-full object-cover" />
                                 <div>
                                     <h2 className="font-bold text-gray-800">{company.name}</h2>
-                                    <div className="w-64 h-2 bg-gray-200 rounded-full mt-1 relative">
+                                    <div className="lg:w-64 md:w-96 w-52 h-2 bg-gray-200 rounded-full mt-1 relative">
                                         <div
                                             className="h-2 bg-indigo-500 rounded-full absolute left-0"
                                             style={{ width: `${company.progress}%` }}
@@ -39,16 +39,16 @@ const ClientReport = () => {
                             </div>
                         </div>
 
-                   <div className="flex justify-between items-center mt-2 border-t border-gray-200 pt-2">
+                        <div className="flex justify-between items-center mt-2 border-t border-gray-200 pt-2">
                             < div className="text-sm font-medium text-slate-500" >
                                 total money spend till now <span className="font-bold text-slate-800" >₹54,240</span>
                             </div >
 
                             <button className="text-slate-600 font-semibold text-sm flex items-center space-x-1">
-                                <span>View The Details</span>
+                                <span>View Details</span>
                                 <FaChevronDown />
                             </button>
-                   </div>
+                        </div>
 
                     </div>
 

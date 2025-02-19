@@ -9,19 +9,17 @@ const Dashboard = () => {
   return (
     <div>
       <Tabmenu />
-      <div className="grid grid-cols-1 md:grid-cols-4">
+      <div className="grid grid-cols-1 lg:grid-cols-4">
         <div className="md:col-span-1">
-          <Wallet/>
+          <Wallet />
         </div>
         <div className="md:col-span-3">
           <ExpenseStats />
-          <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
-            <Categories/>
-            <ClientReport/>
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-5">
+            <Categories />
+            <ClientReport />
           </div>
-          <div className="grid grid-cols-1">
-            <BudgetAllocation/>
-          </div>
+          <BudgetAllocation />
         </div>
       </div>
     </div>

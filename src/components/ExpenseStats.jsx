@@ -39,9 +39,9 @@ const ExpenseStats = () => {
         }
     ];
     return (
-        <div className="flex gap-2 mt-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 mt-2">
             {expenseData.map((expense, index) => (
-                <div key={index} className="bg-white p-2 rounded-lg w-52 border border-gray-200">
+                <div key={index} className="bg-white p-2 rounded-lg border border-gray-200">
                     <div className="flex items-center gap-2 text-gray-500">
                         <div className="p-2 bg-slate-200 rounded-md"><FaFileInvoiceDollar fill="#a4a4c7" /></div>
                         <p className="text-sm">{expense.title}</p>
